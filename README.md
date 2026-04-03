@@ -27,8 +27,5 @@ A simple chat application built using Django where users can send and receive me
 4. Run server
    python manage.py runserver
 
-## 📸 Screenshots
-(Add images here later)
-
 ## 👨‍💻 Author
-Your Name
+suramaxi
