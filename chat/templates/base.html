@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Home</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+
+<div class="chat-container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Chats</h2>
+
+        <a href ="/chat/room1">
+            <div class="chat-item">Room 1</div>
+        </a>
+
+        <a href ="/chat/room2">
+            <div class="chat-item">Room 2</div>
+        </a>
+        
+        <a href ="/chat/room3">
+            <div class="chat-item">Room 3</div>
+        </a>
+
+        <a href ="/chat/">
+            <div class="home_button">Home</div>
+        </a>
+        
+    </div>
+
+    <!-- Chat Area -->
+    {% block chat_area %}
+    {% endblock %}
+
+</div>
+
+</body>
+</html>
